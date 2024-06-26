@@ -1,0 +1,137 @@
+no dropout
+0.050186 M parameters
+step 0: train loss 2.3087, val loss 2.3078
+step 500: train loss 0.4341, val loss 0.4072
+step 1000: train loss 0.3132, val loss 0.2930
+step 1500: train loss 0.2563, val loss 0.2401
+step 2000: train loss 0.2120, val loss 0.2029
+step 2500: train loss 0.1925, val loss 0.1732
+step 3000: train loss 0.1647, val loss 0.1659
+step 3500: train loss 0.1597, val loss 0.1505
+step 4000: train loss 0.1502, val loss 0.1382
+step 4500: train loss 0.1328, val loss 0.1285
+step 5000: train loss 0.1310, val loss 0.1267
+step 5500: train loss 0.1218, val loss 0.1214
+step 6000: train loss 0.1146, val loss 0.1219
+step 6500: train loss 0.1131, val loss 0.1224
+step 7000: train loss 0.1057, val loss 0.1168
+step 7500: train loss 0.1156, val loss 0.1131
+step 8000: train loss 0.1078, val loss 0.1085
+step 8500: train loss 0.1020, val loss 0.1122
+step 9000: train loss 0.0988, val loss 0.1098
+step 9500: train loss 0.0980, val loss 0.1069
+step 10000: train loss 0.0939, val loss 0.1078
+step 10500: train loss 0.0911, val loss 0.1048
+step 11000: train loss 0.0917, val loss 0.0974
+step 11500: train loss 0.0898, val loss 0.1032
+step 12000: train loss 0.0866, val loss 0.1024
+step 12500: train loss 0.0866, val loss 0.1027
+step 13000: train loss 0.0827, val loss 0.0979
+step 13500: train loss 0.0825, val loss 0.0994
+step 14000: train loss 0.0787, val loss 0.1001
+step 14500: train loss 0.0822, val loss 0.0902
+step 14999: train loss 0.0803, val loss 0.1013
+
+with dropout on convolutional layers
+0.050186 M parameters
+step 0: train loss 2.3087, val loss 2.3078
+step 500: train loss 0.4655, val loss 0.4373
+step 1000: train loss 0.3317, val loss 0.3141
+step 1500: train loss 0.2741, val loss 0.2576
+step 2000: train loss 0.2267, val loss 0.2162
+step 2500: train loss 0.2044, val loss 0.1838
+step 3000: train loss 0.1755, val loss 0.1759
+step 3500: train loss 0.1691, val loss 0.1588
+step 4000: train loss 0.1591, val loss 0.1443
+step 4500: train loss 0.1418, val loss 0.1350
+step 5000: train loss 0.1366, val loss 0.1279
+step 5500: train loss 0.1290, val loss 0.1256
+step 6000: train loss 0.1191, val loss 0.1232
+step 6500: train loss 0.1211, val loss 0.1259
+step 7000: train loss 0.1136, val loss 0.1205
+step 7500: train loss 0.1242, val loss 0.1155
+step 8000: train loss 0.1162, val loss 0.1109
+step 8500: train loss 0.1075, val loss 0.1117
+step 9000: train loss 0.1063, val loss 0.1119
+step 9500: train loss 0.1047, val loss 0.1093
+step 10000: train loss 0.1006, val loss 0.1071
+step 10500: train loss 0.0974, val loss 0.1056
+step 11000: train loss 0.1002, val loss 0.0990
+step 11500: train loss 0.0945, val loss 0.1002
+step 12000: train loss 0.0928, val loss 0.1020
+step 12500: train loss 0.0940, val loss 0.1025
+step 13000: train loss 0.0876, val loss 0.0965
+step 13500: train loss 0.0893, val loss 0.0972
+step 14000: train loss 0.0852, val loss 0.0964
+step 14500: train loss 0.0897, val loss 0.0884
+step 14999: train loss 0.0867, val loss 0.0983
+
+dropout on final layer
+0.050186 M parameters
+step 0: train loss 2.3087, val loss 2.3078
+step 500: train loss 0.4425, val loss 0.4152
+step 1000: train loss 0.3164, val loss 0.2977
+step 1500: train loss 0.2606, val loss 0.2434
+step 2000: train loss 0.2167, val loss 0.2061
+step 2500: train loss 0.1967, val loss 0.1759
+step 3000: train loss 0.1688, val loss 0.1692
+step 3500: train loss 0.1637, val loss 0.1540
+step 4000: train loss 0.1541, val loss 0.1398
+step 4500: train loss 0.1370, val loss 0.1311
+step 5000: train loss 0.1316, val loss 0.1248
+step 5500: train loss 0.1234, val loss 0.1217
+step 6000: train loss 0.1155, val loss 0.1207
+step 6500: train loss 0.1174, val loss 0.1243
+step 7000: train loss 0.1087, val loss 0.1183
+step 7500: train loss 0.1191, val loss 0.1119
+step 8000: train loss 0.1116, val loss 0.1087
+step 8500: train loss 0.1041, val loss 0.1106
+step 9000: train loss 0.1017, val loss 0.1087
+step 9500: train loss 0.1002, val loss 0.1066
+step 10000: train loss 0.0974, val loss 0.1057
+step 10500: train loss 0.0926, val loss 0.1021
+step 11000: train loss 0.0958, val loss 0.0966
+step 11500: train loss 0.0910, val loss 0.0986
+step 12000: train loss 0.0894, val loss 0.0996
+step 12500: train loss 0.0890, val loss 0.0996
+step 13000: train loss 0.0841, val loss 0.0956
+step 13500: train loss 0.0848, val loss 0.0962
+step 14000: train loss 0.0812, val loss 0.0946
+step 14500: train loss 0.0854, val loss 0.0887
+step 14999: train loss 0.0830, val loss 0.0961
+
+kernel size 100
+0.74851 M parameters
+step 0: train loss 2.2989, val loss 2.3006
+step 500: train loss 0.2619, val loss 0.2457
+step 1000: train loss 0.1810, val loss 0.1777
+step 1500: train loss 0.1789, val loss 0.1624
+step 2000: train loss 0.1323, val loss 0.1384
+step 2500: train loss 0.1225, val loss 0.1259
+step 3000: train loss 0.1068, val loss 0.1007
+step 3500: train loss 0.1071, val loss 0.1065
+step 4000: train loss 0.0933, val loss 0.0906
+step 4500: train loss 0.0841, val loss 0.0864
+step 5000: train loss 0.0801, val loss 0.0986
+step 5500: train loss 0.0858, val loss 0.0827
+step 6000: train loss 0.0742, val loss 0.0846
+step 6500: train loss 0.0702, val loss 0.0693
+step 7000: train loss 0.0744, val loss 0.0737
+step 7500: train loss 0.0784, val loss 0.0815
+step 8000: train loss 0.0750, val loss 0.0841
+step 8500: train loss 0.0607, val loss 0.0767
+step 9000: train loss 0.0514, val loss 0.0814
+step 9500: train loss 0.0636, val loss 0.0660
+step 10000: train loss 0.0551, val loss 0.0777
+step 10500: train loss 0.0602, val loss 0.0903
+step 11000: train loss 0.0534, val loss 0.0615
+step 11500: train loss 0.0716, val loss 0.0804
+step 12000: train loss 0.0479, val loss 0.0632
+step 12500: train loss 0.0506, val loss 0.0674
+step 13000: train loss 0.0513, val loss 0.0694
+step 13500: train loss 0.0420, val loss 0.0719
+step 14000: train loss 0.0567, val loss 0.0745
+step 14500: train loss 0.0440, val loss 0.0629
+step 14999: train loss 0.0377, val loss 0.0647
+
+batch norm added for convolutional layers
