@@ -1,1 +1,6 @@
-Using idx2numpy for image conversion to bytes
+Implemented a convolutional neural net to predict written digits from the MNIST data set
+
+The convolutional net consists of convolutional layers which and normalised with batch norm and passed
+through a max pool
+The data is then flattened and pased through fully connected layers
+The model achieves a loss of 1.2% 
